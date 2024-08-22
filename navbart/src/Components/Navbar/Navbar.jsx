@@ -3,8 +3,8 @@ import logo_light from '../../assets/logo.jpg';
 import logo_dark from '../../assets/logo.jpg';
 import toggle_light from '../../assets/day.png';
 import toggle_dark from '../../assets/night.png';
-import shopping_cart from '../../assets/shoping-card.png';
-import shopping_cart_dark from '../../assets/shoping-card.png';
+import shopping_cart from '../../assets/Cart.png';
+import shopping_cart_dark from '../../assets/Cart.png';
 
 const Navbar = ({ theme, setTheme }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
